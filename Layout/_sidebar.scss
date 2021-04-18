@@ -1,0 +1,53 @@
+.l-sidebar {
+    display:  block;
+    width: 20%;
+    position:  relative;
+    height:  auto;
+    min-width:  277px;
+    &__container{
+        position:  absolute;
+        background-color:  $side-color;
+        width:  100%;
+        height:  100%;
+        margin: 0;
+    }
+    &__title {
+        position:  relative;
+        top:  82px;
+        left:  46px;
+        color: $fontC-main;
+        font-family:  "Roboto";
+        font-weight:  bold;
+        font-size:  34px;
+        width:  100px;
+    }
+    li {
+        list-style:  none;
+        color: $fontC-main;
+        font-family:  "M+ 1m";
+        font-weight:  bold;
+        font-size:  24px;
+    }
+    a {
+        text-decoration:  none;
+        color: $fontC-main;
+        font-family:  "M+ 1m";
+        font-size:  20px;
+    }
+    &__list {
+        position: absolute;
+        top:  212px;
+        padding-left: 46px;
+    
+    }
+    &__menu p {
+        margin-bottom:  40px;
+    }
+    &__menu-list {
+        padding-left:  20px;
+    }
+    &__menu-item {
+        padding-bottom: 23px;
+    }
+
+}

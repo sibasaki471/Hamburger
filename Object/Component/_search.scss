@@ -1,0 +1,31 @@
+.c-search {
+    margin-right:  30px;
+    display:  flex;
+
+    &__btn {
+        font-size:  16px;
+        font-family: "M+ 1m";
+        color: $fontC-main;
+        background-color:  $side-color ;
+        display:  inline-block;
+        justify-content:  center;
+        width: 136px;
+        height:  46px;
+        margin-left:  14px;
+    }
+    &__btn, &__text {
+        border-color:  $fontC-main;
+        border-radius:  10px;
+    }
+    &__text {
+        font-family:  FontAwesome;
+        font-size: 24px;
+        color:  #808080;
+        width:  396px;
+        height:  40px;
+        
+        &:active {
+            color: #FFF;
+        }
+    }
+}

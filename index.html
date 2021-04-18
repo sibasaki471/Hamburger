@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Hamburger</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Foundation/reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://mplus-webfonts.sourceforge.jp/mplus_webfonts.css">
+	<script src="https://kit.fontawesome.com/ba2839da14.js" crossorigin="anonymous"></script>
+	<script src="Foundation/jquery-3.6.0.min.js"></script>
+	
+    <title>Hamburger</title>
 </head>
+
+
 <body>
-  
+	<header class="l-header__container">
+		<div class="l-header__wrapper">
+			<section class="l-header">
+				<h1 class="c-header__title">Hamburger</h1>
+				<form action="#" method="get" class="c-search">
+					<input type="text" size="25" class="c-search__text" placeholder=" &#xf002;">
+					<input type="submit" class="c-search__btn" value="検索">
+				</form><!-- /lc-search -->
+				<a href="#" class="c-header__menu">Menu</a>
+			</section><!-- /l-header -->
+		
+			<div class="l-main">
+				<img src="images/main.jpg" alt="">
+				<h2 class="c-main__subtitle">ダミーサイト</h2>
+			</div>
+	
+			<div class="c-service__wrapper">
+				<section class="c-service">
+					<img src="images/TakeOut.jpg" alt="takeout">
+					<div class="c-service__text--wrapper">
+						<h2 class="c-service__title">Take Out</h2>
+						<hr class="p-bar">
+						<div class="c-service__inner">
+							<div class="c-service__container">
+								<h3 class="c-service__title__small">小見出しが入ります</h3>
+								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+								</p>
+							</div>
+							<div class="c-service__container">
+								<h3 class="c-service__title__small">小見出しが入ります</h3>
+								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+								</p>
+							</div>
+						</div>
+					</div>
+	
+				</section>
+				<section class="c-service">
+					<img src="images/EatIn.jpg" alt="takeout">
+					<div class="c-service__text--wrapper">
+						<h2 class="c-service__title">Eat In</h2>
+						<hr class="p-bar">
+						<div class="c-service__inner">
+							<div class="c-service__container">
+								<h3 class="c-service__title__small">小見出しが入ります</h3>
+								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+								</p>
+							</div>
+							<div class="c-service__container">
+								<h3 class="c-service__title__small">小見出しが入ります</h3>
+								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</section>
+			</div>
+			<div class="c-map">
+				<img src="images/map.jpg" alt="" class="l-map__img">
+				<div class="c-map__comment">
+					<div class="c-map__comment--wrapper">
+						<h4 class="c-map__title">見出しが入ります</h4>
+						<hr class="p-bar c-map__bar">
+							<p class="c-map__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+							</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<section class="l-sidebar">
+			<div class="l-sidebar__container">
+				<button  class="p-sidebar__btn">
+					<span></span>
+				</button>
+				<h2 class="l-sidebar__title">Menu</h2>
+				<ul class="l-sidebar__list">
+				<li class="l-sidebar__menu"><p>バーガー</p>
+					<ul class="l-sidebar__menu-list">
+						<li class="l-sidebar__menu-item"><a href="#">ハンバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">チーズバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">テリヤキバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">アボガドバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">フィッシュバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">ベーコンバーガー</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">チキンバーガー</a></li>
+					</ul>
+				</li>
+				<li><p class="l-sidebar__menu">サイド</p>
+					<ul class="l-sidebar__menu-list">
+						<li class="l-sidebar__menu-item"><a href="#">ポテト</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">サラダ</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">ナゲット</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">コーン</a></li>
+					</ul>
+				</li>
+				<li><p class="l-sidebar__menu">ドリンク</p>
+					<ul class="l-sidebar__menu-list">
+						<li class="l-sidebar__menu-item"><a href="#">コーラ</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">ファンタ</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">オレンジ</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">アップル</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">紅茶（Ice/Hot）</a></li>
+						<li class="l-sidebar__menu-item"><a href="#">コーヒー（Ice/Hot）</a></li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+		</section>
+	</header>
+	
+
+	<footer>
+		<div class="l-footer">
+			<p class="l-footer__text">ショップ情報｜ヒストリー</p>
+			<p class="l-footer__copyright"><small>Copyright: RaiseTech</small></p>
+		</div>
+	</footer>
+	<script src="Foundation/jquery.js"></script>
 </body>
 </html>

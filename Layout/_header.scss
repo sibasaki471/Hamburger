@@ -1,0 +1,22 @@
+header {
+    margin: 0;
+    height:  100%;
+}
+
+.l-header {
+    display:  flex;
+    justify-content: space-between;
+    align-items:  center;
+    background-color: $header-color;
+    height:  217px;
+    width:  100%;
+    position: relative;
+    &__wrapper {
+        width:  80%;
+    }
+    &__container {
+        max-height: 100%;
+        display:  flex;
+        
+    }
+}

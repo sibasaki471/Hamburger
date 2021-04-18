@@ -1,0 +1,20 @@
+.l-footer {
+    height: 150px;
+    background-color: $footer-color;
+    display:  flex;
+    flex-flow:  column;
+    justify-content:  center;
+    align-items:  center;
+    width:  100%;
+    
+    &__text  {
+        color: $fontC-white;
+        font-family:  "M+ 1m";
+        font-size:  20px;
+    }
+    &__copyright {
+        color:  $fontC-white;
+        font-family:  "M+ 1m";
+        font-size:  14px;
+    }
+}
