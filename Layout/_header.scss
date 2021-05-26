@@ -1,22 +1,38 @@
-header {
-    margin: 0;
-    height:  100%;
+.l-header__title {
+    font-family:  "Roboto", sans-serif;
+    font-weight:  bold;
+    font-size: 2.5rem;
+    margin:  40px auto 38px; 
+    color: $fontC-main;
 }
-
 .l-header {
-    display:  flex;
-    justify-content: space-between;
-    align-items:  center;
-    background-color: $header-color;
+    background-color:  $header-color;
     height:  217px;
-    width:  100%;
-    position: relative;
+    display:  flex;
+    flex-direction:  column;
+    position:  relative;
+
     &__wrapper {
-        width:  80%;
-    }
-    &__container {
-        max-height: 100%;
         display:  flex;
-        
+        position: relative;
+        overflow:  hidden;
+       
     }
+
+    &__container {
+        overflow-y:  hidden;
+        width:  100%;
+        &::after {
+            content:  "";
+            display: block;
+        }
+    }
+
+    
+}
+.active::before {
+    content:  "";
+    display:  block;
+    padding-top: 200vh;
+     
 }

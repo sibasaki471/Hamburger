@@ -1,62 +1,132 @@
 .c-service {
     position: relative;
-    margin:  0 20px;
-    img {
-        width: 100%;
-
+    margin: 20px;
+    @include mq(tab) {
+        width: 41vw;
+        margin: 0;
     }
-    &__text--wrapper {
-        position:  absolute;
-        left:  19px;
-        top:  20px;
-        min-height:  100%;
-        min-width:  100%;
+    @include mq(pc) {
+        width: 32.6vw;
         
+    }
+    
+    img {
 
+        width: 100%;
+    }
+    &__wrapper {
+        @include mq(tab) {
+            display:  flex;
+            margin: 5vw;
+            justify-content:  space-between;
+        }
+        @include mq(pc) {
+            margin: 4.8vw;
+            justify-content:  space-between;
+        }
+    }
+    &__title {
+        font-family:  "Roboto";
+        font-size: 41px;
+        font-weight:  bold;
+        color:  $fontC-white;
+        position: absolute;
+        height:  54px;
+        margin: 0;
+        top:  31px;
+        left: 30px;
+        @include mq(tab) {
+            font-size: calc(30px + 14 * (100vw - 375px)/460);
+            top: 2vw;
+            left: 1.8vw;
+        }
+        @include mq(tab) {
+            height:  5.5vw;
+            top:  1.3vw;
+            left: 1.3vw;
+        }
+    }
+    &__bar {
+        border-top:  4px solid;
+        border-bottom: 0;
+        border-color: $fontC-white;
+        width:  9vw;
+        margin:  0;
+        position:  absolute;
+        top:  97.3px;
+        left:  32.5px;
+        @include mq(tab) {
+            top:  11vw;
+            left: 1.8vw;
+        }
+        @include mq(pc) {
+            top:  8.3vw;
+            left: 1.3vw;
+        }
     }
     &__inner {
         position:  absolute;
-        bottom:  20px;
-        width:  95%;
-        
-
-    }
-    &__wrapper {
-        display: flex;
-        justify-content: space-around;
-        padding:  0 20px;
-        margin-bottom:  134px;
-
-        
+        bottom:  10px;
+        width:  100%;
+        margin:  0 auto;
+        @include mq(tab) {
+            bottom: 2vw;
+        }
+        @include mq(pc) {
+            bottom: 1.05vw;
+        }
     }
     &__container {
-        background-color: rgba(255, 255, 255, .8);
-        width:  96.5%;
-        padding:  17px 0 0 0;
-        margin-bottom:  20px;
-        
-        
-    }
-    &__title {
-        font-family: "Roboto";
-        font-size:  80px;
-        font-weight:  bold;
-        color:  $fontC-white;
+        background-color: $fontC-white;
+        opacity: .8;
+        width:  80vw;
+        height:  43vw;
+        margin: 0 auto ;
+        margin-top: 10px;
 
-        &__small {
-            font-family:  "M+ 1m";
-            font-weight:  bold;
-            font-size: 24px;
-            color:  $fontC-other;
-            margin:  0 0 26px 19px;
+        @include mq(tab) {
+            height: 21vw;
+            width:  38.5vw;
+        }
+        @include mq(pc) {
+            width: 30.5vw;
+            height: 174px;
+        }
+    }
+
+    &__title__small {
+        font-size: 22px;
+        font-family:  "M PLUS 1p";
+        font-weight:  bold;
+        color:  $fontC-other;
+        padding:  19px 10px;
+        margin:  0;
+        @include mq(tab) {
+            font-size: 2.88vw;
+            padding: 2.3vw;
+        }
+        @include mq(pc) {
+            font-size: 1.5rem;
+            padding:  0.9vw;
         }
     }
     &__text {
-        font-family:  "M+ 1m";
-        font-weight: normal;
+        font-family:  "M PLUS 1p";
         font-size: 16px;
         color:  $fontC-other;
-        margin:  0 25px 0 19px;
-        height:  97px;
+        margin:  0 14px 23px 10px;
+        overflow:  hidden;
+        height:  19vw;
+        @include mq(tab) {
+            height: 9.1vw;
+            font-size: 1.92vw;
+        }
+        @include mq(pc) {
+            font-size: 1rem;
+            padding: 0.9vw;
+            margin: 0;
+
+        }
     }
+    
 }

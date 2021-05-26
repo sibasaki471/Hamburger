@@ -3,4 +3,16 @@ $side-color : #F2EDE9;
 $footer-color : #9D8670;
 $fontC-white : #FFF;
 $fontC-other : #3C2A10;
-$fontC-main : #707070
+$fontC-main : #707070;
+
+
+$breakpoints: (
+  'tab': 'screen and (min-width: 375px)',
+  'pc': 'screen and (min-width: 834px)',
+) !default;
+
+@mixin mq($breakpoint: tab) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  }

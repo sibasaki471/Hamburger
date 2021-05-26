@@ -1,26 +1,30 @@
-// Foundation=======================
+// ======================
+// Foundation
+// ======================
 @import "Foundation/variable";
-
-// Layout==========================
+// ======================
+// Layout
+// ======================
 @import "Layout/header";
-@import "Layout/sidebar";
 @import "Layout/main";
+@import "Layout/sidebar";
 @import "Layout/footer";
+// ======================
+// Object
+// ======================
 
-// Object==========================
-
-    //Component--------------------------------------
-@import "Object/Component/header__title";
-@import "Object/Component/header__menu";
-@import "Object/Component/map";
-@import "Object/Component/search";
-@import "Object/Component/service";
-@import "Object/Component/main__subtitle";
-
-    //Project--------------------------------------------
-@import "Object/Project/bar";
-@import "Object/Project/button";
-@import "Object/Project/button-action";
-
-// Utility===========================
-@import "Object/Utility/media-screen";
+// ----------------------------------------
+// Component
+// ----------------------------------------
+    @import "Object/Component/header__menu";
+    @import "Object/Component/search";
+    @import "Object/Component/main__subtitle";
+    @import "Object/Component/service";
+    @import "Object/Component/map";
+// ----------------------------------------
+// Project
+// ----------------------------------------
+    @import "Object/Project/button";
+// ----------------------------------------
+// Utility
+// ----------------------------------------

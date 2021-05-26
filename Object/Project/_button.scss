@@ -1,11 +1,14 @@
 .p-sidebar__btn{
+    display:  block;
     border-style:  none;
     outline:  none;
     padding:  0;
     position:  absolute;
     top:  25px;
     right:  25px;
-    display:  none;
+    @include mq(tab) {
+        display: none;
+    }
     cursor: pointer;
     & span{
         display: block;

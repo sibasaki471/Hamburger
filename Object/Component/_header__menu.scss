@@ -1,11 +1,17 @@
 .c-header__menu {
+    display:  block;
     position:  absolute;
     top:  18px;
     right:  24px;
     color: $fontC-main;
     font-family:  "Roboto";
     font-weight:  bold;
-    font-size:  34px;
+    font-size:  1.25rem;
     text-decoration:  none;
-    display:  none;
+    @include mq(pc) {
+        display:  none;
+    }
+    @include mq(tab) {
+        font-size: 4.3vw;
+    }
 }

@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="Foundation/reset.css">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://mplus-webfonts.sourceforge.jp/mplus_webfonts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/ba2839da14.js" crossorigin="anonymous"></script>
 	<script src="Foundation/jquery-3.6.0.min.js"></script>
 	
@@ -16,79 +18,78 @@
 
 
 <body>
-	<header class="l-header__container">
-		<div class="l-header__wrapper">
-			<section class="l-header">
-				<h1 class="c-header__title">Hamburger</h1>
+	<header id="header" class="l-header__wrapper">
+		<main class="l-header__container">
+			<aside class="l-header">
+				<h1 class="l-header__title">Hamburger</h1>
 				<form action="#" method="get" class="c-search">
 					<input type="text" size="25" class="c-search__text" placeholder=" &#xf002;">
 					<input type="submit" class="c-search__btn" value="検索">
 				</form><!-- /lc-search -->
 				<a href="#" class="c-header__menu">Menu</a>
-			</section><!-- /l-header -->
+			</aside><!-- /l-header -->
 		
-			<div class="l-main">
-				<img src="images/main.jpg" alt="">
+			<article class="l-main">
+				<img class="l-main__img-sp" src="images/main-sp.jpg" alt="テーブル写真sp">
+				<img class="l-main__img" src="images/main.jpg" alt="テーブル写真">
 				<h2 class="c-main__subtitle">ダミーサイト</h2>
-			</div>
+			</article>
 	
-			<div class="c-service__wrapper">
+			<article class="c-service__wrapper">
 				<section class="c-service">
 					<img src="images/TakeOut.jpg" alt="takeout">
-					<div class="c-service__text--wrapper">
-						<h2 class="c-service__title">Take Out</h2>
-						<hr class="p-bar">
-						<div class="c-service__inner">
-							<div class="c-service__container">
-								<h3 class="c-service__title__small">小見出しが入ります</h3>
-								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-								</p>
-							</div>
-							<div class="c-service__container">
-								<h3 class="c-service__title__small">小見出しが入ります</h3>
-								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-								</p>
-							</div>
-						</div>
-					</div>
-	
+					<h2 class="c-service__title">Take Out</h2>
+					<hr class="c-service__bar">
+					<article class="c-service__inner">
+						<aside class="c-service__container">
+							<h3 class="c-service__title__small">小見出しが入ります</h3>
+							<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+							</p>
+						</aside>
+						<aside class="c-service__container">
+							<h3 class="c-service__title__small">小見出しが入ります</h3>
+							<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+							</p>
+						</aside>
+					</article>
 				</section>
-				<section class="c-service">
+				<section class="c-service ">
 					<img src="images/EatIn.jpg" alt="takeout">
-					<div class="c-service__text--wrapper">
-						<h2 class="c-service__title">Eat In</h2>
-						<hr class="p-bar">
-						<div class="c-service__inner">
-							<div class="c-service__container">
-								<h3 class="c-service__title__small">小見出しが入ります</h3>
-								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-								</p>
-							</div>
-							<div class="c-service__container">
-								<h3 class="c-service__title__small">小見出しが入ります</h3>
-								<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-								</p>
-							</div>
-						</div>
-					</div>
-					
+					<h2 class="c-service__title">Eat In</h2>
+					<hr class="c-service__bar">
+					<article class="c-service__inner">
+						<aside class="c-service__container">
+							<h3 class="c-service__title__small">小見出しが入ります</h3>
+							<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+							</p>
+						</aside>
+						<aside class="c-service__container">
+							<h3 class="c-service__title__small">小見出しが入ります</h3>
+							<p class="c-service__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+							</p>
+						</aside>
+					</article>
 				</section>
-			</div>
-			<div class="c-map">
-				<img src="images/map.jpg" alt="" class="l-map__img">
-				<div class="c-map__comment">
-					<div class="c-map__comment--wrapper">
+			</article>
+			<article class="c-map">
+				<img src="images/map-sp.jpg" alt="地図sp" class="c-map__img-sp">
+				<img src="images/map-tab.jpg" alt="地図tab" class="c-map__img-tab">
+				<img src="images/map.jpg" alt="地図" class="c-map__img">
+				<section class="c-map__comment">
+					<aside class="c-map__comment--wrapper">
 						<h4 class="c-map__title">見出しが入ります</h4>
-						<hr class="p-bar c-map__bar">
+						<hr class="c-map__bar">
 							<p class="c-map__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
 							</p>
-					</div>
-				</div>
-			</div>
-		</div>	
+					</aside>
+				</section>
+			</article>
+		</main>	
+		
 
-		<section class="l-sidebar">
-			<div class="l-sidebar__container">
+
+		<aside class="l-sidebar">
+			<section class="l-sidebar__container">
 				<button  class="p-sidebar__btn">
 					<span></span>
 				</button>
@@ -124,16 +125,17 @@
 					</ul>
 				</li>
 				</ul>
-			</div>
-		</section>
+			</section>
+		</aside>
+		
 	</header>
 	
 
 	<footer>
-		<div class="l-footer">
+		<aside class="l-footer">
 			<p class="l-footer__text">ショップ情報｜ヒストリー</p>
 			<p class="l-footer__copyright"><small>Copyright: RaiseTech</small></p>
-		</div>
+		</aside>
 	</footer>
 	<script src="Foundation/jquery.js"></script>
 </body>
