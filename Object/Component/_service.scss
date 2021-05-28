@@ -27,7 +27,7 @@
     }
     &__title {
         font-family:  "Roboto";
-        font-size: 41px;
+        font-size: 2.5625rem;
         font-weight:  bold;
         color:  $fontC-white;
         position: absolute;
@@ -36,7 +36,7 @@
         top:  31px;
         left: 30px;
         @include mq(tab) {
-            font-size: calc(30px + 14 * (100vw - 375px)/460);
+            font-size: calc(1.875rem + 14 * (100vw - 375px)/460);
             top: 2vw;
             left: 1.8vw;
         }
@@ -95,7 +95,7 @@
     }
 
     &__title__small {
-        font-size: 22px;
+        font-size: 1.375rem;
         font-family:  "M PLUS 1p";
         font-weight:  bold;
         color:  $fontC-other;
@@ -112,7 +112,7 @@
     }
     &__text {
         font-family:  "M PLUS 1p";
-        font-size: 16px;
+        font-size: 1rem;
         color:  $fontC-other;
         margin:  0 14px 23px 10px;
         overflow:  hidden;

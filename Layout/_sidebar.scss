@@ -33,7 +33,7 @@
         color: $fontC-main;
         font-family:  "Roboto";
         font-weight:  bold;
-        font-size:  34px;
+        font-size:  2.125rem;
         width:  100px;
         margin: 0%;
         height: 50px;
@@ -46,17 +46,17 @@
         color: $fontC-main;
         font-family:  "M+ 1m";
         font-weight:  bold;
-        font-size:  24px;
+        font-size:  1.5rem;
         
     }
     a {
         text-decoration:  none;
         color: $fontC-main;
         font-family:  "M PLUS 1p";
-        font-size:  20px;
+        font-size:  1.25rem;
         font-weight:  normal;
         @include mq(tab) {
-            font-size: calc(0.52vw + 10px);
+            font-size: calc(0.52vw + 0.625rem);
             
          }
     }

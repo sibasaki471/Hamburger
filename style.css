@@ -131,7 +131,7 @@
   color: #707070;
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 34px;
+  font-size: 2.125rem;
   width: 100px;
   margin: 0%;
   height: 50px;
@@ -148,20 +148,20 @@
   color: #707070;
   font-family: "M+ 1m";
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .l-sidebar a {
   text-decoration: none;
   color: #707070;
   font-family: "M PLUS 1p";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 
 @media screen and (min-width: 375px) {
   .l-sidebar a {
-    font-size: calc(0.52vw + 10px);
+    font-size: calc(0.52vw + 0.625rem);
   }
 }
 
@@ -212,13 +212,13 @@
 .l-footer__text {
   color: #FFF;
   font-family: "M+ 1m";
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .l-footer__copyright {
   color: #FFF;
   font-family: "M+ 1m";
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c-header__menu {
@@ -253,7 +253,7 @@
 }
 
 .c-search__btn {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "M+ 1m";
   color: #707070;
   background-color: #F2EDE9;
@@ -273,7 +273,7 @@
 
 .c-search__text {
   font-family: FontAwesome;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #808080;
   width: 47vw;
   min-width: 230px;
@@ -343,7 +343,7 @@
 
 .c-service__title {
   font-family: "Roboto";
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: bold;
   color: #FFF;
   position: absolute;
@@ -355,7 +355,7 @@
 
 @media screen and (min-width: 375px) {
   .c-service__title {
-    font-size: calc(30px + 14 * (100vw - 375px)/460);
+    font-size: calc(1.875rem + 14 * (100vw - 375px)/460);
     top: 2vw;
     left: 1.8vw;
   }
@@ -437,7 +437,7 @@
 }
 
 .c-service__title__small {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "M PLUS 1p";
   font-weight: bold;
   color: #3C2A10;
@@ -461,7 +461,7 @@
 
 .c-service__text {
   font-family: "M PLUS 1p";
-  font-size: 16px;
+  font-size: 1rem;
   color: #3C2A10;
   margin: 0 14px 23px 10px;
   overflow: hidden;
@@ -577,21 +577,21 @@
 .c-map__title {
   font-family: "M PLUS 1p";
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #FFF;
   margin-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) {
   .c-map__title {
-    font-size: calc(16px + 1.7vw);
+    font-size: calc(1rem + 1.7vw);
     margin-bottom: 5.35vw;
   }
 }
 
 @media screen and (min-width: 834px) {
   .c-map__title {
-    font-size: calc(24px + 0.63vw);
+    font-size: calc(1.5rem + 0.63vw);
     margin-bottom: 2.9vw;
   }
 }

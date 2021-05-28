@@ -66,15 +66,15 @@
     &__title {
         font-family:  "M PLUS 1p";
         font-weight:  bold;
-        font-size:  30px;
+        font-size:  1.875rem;
         color:  $fontC-white;
         margin-bottom:  20px;
         @include mq(tab) {
-            font-size:  calc(16px + 1.7vw);
+            font-size:  calc(1rem + 1.7vw);
             margin-bottom:  5.35vw;
         }
         @include mq(pc) {
-            font-size:  calc(24px + 0.63vw);
+            font-size:  calc(1.5rem + 0.63vw);
             margin-bottom: 2.9vw;
         }
     }
@@ -104,7 +104,7 @@
     &__bar {
         width:  73px;
         margin:  0;
-
+        
     }
 
 }
